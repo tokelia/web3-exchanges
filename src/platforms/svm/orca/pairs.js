@@ -2,17 +2,17 @@
 
 /*#elif _SVM
 
-import { request } from '@depay/web3-client-svm'
-import Token from '@depay/web3-tokens-svm'
+import { request } from '@tokelia/web3-client'
+import Token from '@tokelia/web3-tokens'
 
 //#else */
 
-import { request } from '@depay/web3-client'
-import Token from '@depay/web3-tokens'
+import { request } from '@tokelia/web3-client'
+import Token from '@tokelia/web3-tokens'
 
 //#endif
 
-import Blockchains from '@depay/web3-blockchains'
+import Blockchains from '@tokelia/web3-blockchains'
 import { ethers } from 'ethers'
 import { getPrice } from './price'
 import { PublicKey } from '@depay/solana-web3.js'

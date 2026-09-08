@@ -1,18 +1,18 @@
 /*#if _EVM
 
-import Token from '@depay/web3-tokens-evm'
-import { request } from '@depay/web3-client-evm'
+import Token from '@tokelia/web3-tokens'
+import { request } from '@tokelia/web3-client'
 
 /*#elif _SVM
 
 //#else */
 
-import Token from '@depay/web3-tokens'
-import { request } from '@depay/web3-client'
+import Token from '@tokelia/web3-tokens'
+import { request } from '@tokelia/web3-client'
 
 //#endif
 
-import Blockchains from '@depay/web3-blockchains'
+import Blockchains from '@tokelia/web3-blockchains'
 
 // Replaces 0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE with the wrapped token and implies wrapping.
 //

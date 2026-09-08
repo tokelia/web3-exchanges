@@ -1,14 +1,14 @@
 /*#if _EVM
 
-import Token from '@depay/web3-tokens-evm'
+import Token from '@tokelia/web3-tokens'
 
 /*#elif _SVM
 
-import Token from '@depay/web3-tokens-svm'
+import Token from '@tokelia/web3-tokens'
 
 //#else */
 
-import Token from '@depay/web3-tokens'
+import Token from '@tokelia/web3-tokens'
 
 //#endif
 

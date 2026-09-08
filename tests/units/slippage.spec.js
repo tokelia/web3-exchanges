@@ -3,7 +3,7 @@ import Exchanges from 'src'
 import { mock, resetMocks, increaseBlock } from '@depay/web3-mock'
 import { mockDecimals } from 'tests/mocks/token'
 import { mockPair, mockAmounts } from 'tests/mocks/evm/uniswap_v2'
-import { resetCache, getProvider } from '@depay/web3-client'
+import { resetCache, getProvider } from '@tokelia/web3-client'
 
 describe('slippage', () => {
 

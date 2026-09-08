@@ -27,7 +27,7 @@ export default {
     ...Object.keys(pkg.peerDependencies || {}),
   ],
   plugins: [
-    jscc({ include: 'src/**' }),
+    jscc({ include: 'src/**', values: { _EVM: 1 } }),
     sucrase({
       exclude: ['node_modules/**'],
       transforms: ['jsx']

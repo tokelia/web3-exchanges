@@ -2,11 +2,11 @@
 
 /*#elif _SVM
 
-import { request } from '@depay/web3-client-svm'
+import { request } from '@tokelia/web3-client'
 
 //#else */
 
-import { request } from '@depay/web3-client'
+import { request } from '@tokelia/web3-client'
 
 //#endif
 

@@ -1,7 +1,7 @@
 import { ethers } from 'ethers'
 import Exchanges from 'src'
 import { mock, resetMocks } from '@depay/web3-mock'
-import { getProvider, resetCache } from '@depay/web3-client'
+import { getProvider, resetCache } from '@tokelia/web3-client'
 
 describe('quickswap', () => {
   

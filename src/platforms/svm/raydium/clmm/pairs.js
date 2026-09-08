@@ -2,17 +2,17 @@
 
 /*#elif _SVM
 
-import { request } from '@depay/web3-client-svm'
+import { request } from '@tokelia/web3-client'
 import { Buffer, BN, PublicKey } from '@depay/solana-web3.js'
 
 //#else */
 
-import { request } from '@depay/web3-client'
+import { request } from '@tokelia/web3-client'
 import { Buffer, BN, PublicKey, bs58 } from '@depay/solana-web3.js'
 
 //#endif
 
-import Blockchains from '@depay/web3-blockchains'
+import Blockchains from '@tokelia/web3-blockchains'
 import { CLMM_LAYOUT, CLMM_CONFIG_LAYOUT, TICK_ARRAY_LAYOUT, TICK_ARRAY_BITMAP_EXTENSION_LAYOUT } from '../layouts'
 import { ethers } from 'ethers'
 import { SqrtPriceMath, MathUtil, LiquidityMath } from './math'

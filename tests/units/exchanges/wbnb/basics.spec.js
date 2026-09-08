@@ -1,4 +1,4 @@
-import Blockchains from '@depay/web3-blockchains'
+import Blockchains from '@tokelia/web3-blockchains'
 import Exchanges from 'src'
 import WETH from 'src/platforms/evm/weth'
 

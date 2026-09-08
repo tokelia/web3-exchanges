@@ -2,14 +2,14 @@
 
 /*#elif _SVM
 
-import { request } from '@depay/web3-client-svm'
+import { request } from '@tokelia/web3-client'
 
 //#else */
 
-import Blockchains from '@depay/web3-blockchains'
+import Blockchains from '@tokelia/web3-blockchains'
 import { getPairsWithPrice } from './pairs'
 import { PublicKey } from '@depay/solana-web3.js'
-import { request } from '@depay/web3-client'
+import { request } from '@tokelia/web3-client'
 import { WHIRLPOOL_LAYOUT } from './layouts'
 
 //#endif

@@ -1,10 +1,10 @@
-import Blockchains from '@depay/web3-blockchains'
+import Blockchains from '@tokelia/web3-blockchains'
 import { ethers } from 'ethers'
 import Exchanges from 'src'
 import { mock, resetMocks, anything } from '@depay/web3-mock'
 import { mockDecimals } from 'tests/mocks/token'
 import { mockPath } from 'tests/mocks/evm/trader_joe_v2_1'
-import { resetCache, getProvider } from '@depay/web3-client'
+import { resetCache, getProvider } from '@tokelia/web3-client'
 
 describe('trader_joe_v2_1', () => {
   

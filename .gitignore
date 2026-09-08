@@ -22,3 +22,6 @@ npm-debug.log*
 yarn-error.log
 
 tmp/
+
+/dist
+/node_modules

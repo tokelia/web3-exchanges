@@ -1,11 +1,11 @@
 import Route from 'src/classes/Route'
-import Blockchains from '@depay/web3-blockchains'
+import Blockchains from '@tokelia/web3-blockchains'
 import { ethers } from 'ethers'
 import Exchanges from 'src'
 import { mock, resetMocks, anything } from '@depay/web3-mock'
 import { mockDecimals } from 'tests/mocks/token'
 import { mockPair, mockAmounts } from 'tests/mocks/evm/uniswap_v2'
-import { resetCache, getProvider } from '@depay/web3-client'
+import { resetCache, getProvider } from '@tokelia/web3-client'
 import { testRouting } from 'tests/helpers/testRouting'
 
 describe('quickswap', () => {

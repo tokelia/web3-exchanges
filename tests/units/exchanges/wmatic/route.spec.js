@@ -1,11 +1,11 @@
 import Route from 'src/classes/Route'
-import Blockchains from '@depay/web3-blockchains'
+import Blockchains from '@tokelia/web3-blockchains'
 import { ethers } from 'ethers'
 import Exchanges from 'src'
 import { getWallets } from '@depay/web3-wallets'
 import { mock, resetMocks, anything } from '@depay/web3-mock'
 import { mockDecimals } from 'tests/mocks/token'
-import { resetCache, getProvider } from '@depay/web3-client'
+import { resetCache, getProvider } from '@tokelia/web3-client'
 import { testRouting } from 'tests/helpers/testRouting'
 
 describe('wmatic', () => {

@@ -1,20 +1,20 @@
 /*#if _EVM
 
-import Token from '@depay/web3-tokens-evm'
+import Token from '@tokelia/web3-tokens'
 import { ethers } from 'ethers'
-import { request } from '@depay/web3-client-evm'
+import { request } from '@tokelia/web3-client'
 
 /*#elif _SVM
 
 //#else */
 
-import Token from '@depay/web3-tokens'
+import Token from '@tokelia/web3-tokens'
 import { ethers } from 'ethers'
-import { request } from '@depay/web3-client'
+import { request } from '@tokelia/web3-client'
 
 //#endif
 
-import Blockchains from '@depay/web3-blockchains'
+import Blockchains from '@tokelia/web3-blockchains'
 
 const SENDER_AS_RECIPIENT = '0x0000000000000000000000000000000000000001'
 const ROUTER_AS_RECIPIENT = '0x0000000000000000000000000000000000000002'

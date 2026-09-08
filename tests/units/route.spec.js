@@ -3,7 +3,7 @@ import { mock, resetMocks } from '@depay/web3-mock'
 import { mockDecimals } from 'tests/mocks/token'
 import { mockPair, mockAmounts } from 'tests/mocks/evm/uniswap_v2'
 import { mockPair as mockPairV3, mockAmounts as mockAmountsV3 } from 'tests/mocks/evm/uniswap_v3'
-import { resetCache, getProvider } from '@depay/web3-client'
+import { resetCache, getProvider } from '@tokelia/web3-client'
 import Exchanges from 'src'
 import { supported } from 'src/blockchains'
 

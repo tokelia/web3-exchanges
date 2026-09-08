@@ -2,17 +2,17 @@
 
 /*#elif _SVM
 
-import { request, getProvider } from '@depay/web3-client-svm'
-import Token from '@depay/web3-tokens-svm'
+import { request, getProvider } from '@tokelia/web3-client'
+import Token from '@tokelia/web3-tokens'
 
 //#else */
 
-import { request, getProvider } from '@depay/web3-client'
-import Token from '@depay/web3-tokens'
+import { request, getProvider } from '@tokelia/web3-client'
+import Token from '@tokelia/web3-tokens'
 
 //#endif
 
-import Blockchains from '@depay/web3-blockchains'
+import Blockchains from '@tokelia/web3-blockchains'
 import { Buffer, BN, Transaction, TransactionInstruction, SystemProgram, PublicKey, Keypair, struct, u8, u64, u128, bool } from '@depay/solana-web3.js'
 import { MIN_SQRT_PRICE_X64, MAX_SQRT_PRICE_X64, TOKEN_PROGRAM_ID, TOKEN_2022_PROGRAM_ID, MEMO_PROGRAM_ID } from './clmm/constants'
 import { getExchangePath } from './path'
