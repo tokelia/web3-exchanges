@@ -75,6 +75,8 @@ exchanges.base = [
 ]
 exchanges.base.forEach((exchange)=>{ exchanges.base[exchange.name] = exchange })
 
+exchanges.basesepolia = []
+
 exchanges.arbitrum = [
   uniswap_v3('arbitrum'),
   weth_arbitrum('arbitrum'),
@@ -216,6 +218,8 @@ exchanges.base = [
   weth_base('base'),
 ]
 exchanges.base.forEach((exchange)=>{ exchanges.base[exchange.name] = exchange })
+
+exchanges.basesepolia = []
 
 exchanges.arbitrum = [
   uniswap_v3('arbitrum'),

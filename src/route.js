@@ -9,6 +9,10 @@ let route = ({
   amountInMax,
   amountOutMin,
 }) => {
+  if(!exchanges[blockchain] || exchanges[blockchain].length === 0) {
+    return Promise.resolve([])
+  }
+
   return Promise.all(
     exchanges[blockchain].map((exchange) => {
       return exchange.route({
