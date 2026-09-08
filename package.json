@@ -7,10 +7,12 @@
   "module": "dist/esm/index.js",
   "source": "src/index.js",
   "files": [
-    "dist"
+    "dist",
+    "NOTICE"
   ],
   "scripts": {
     "build": "rimraf dist && rollup -c rollup.module.config.js",
+    "prepublishOnly": "npm run build",
     "lint": "eslint \"src/**/*.{js,jsx,ts,tsx}\"",
     "lint:fix": "eslint \"src/**/*.{js,jsx,ts,tsx}\" --fix",
     "dev": "rollup -c rollup.dev.config.js -w",
