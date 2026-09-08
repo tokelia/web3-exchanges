@@ -8,3 +8,4 @@ Cambios respecto a upstream:
 - Paquete renombrado a @tokelia/web3-exchanges; un solo bundle compilado para EVM.
 - Dependencias @depay/web3-* sustituidas por @tokelia/web3-*.
 - basesepolia en supported, sin exchanges; route() devuelve [] para cadenas sin exchanges.
+- Globales UMD de las dependencias @tokelia/web3-* (rollup.globals.js).
